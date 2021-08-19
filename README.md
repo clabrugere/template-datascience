@@ -23,6 +23,11 @@ This will create the project structure in the current working directory:
 	- ```src/features``` code to generate the final canonical datasets
 	- ```src/models``` code implementing the models
 
+## Requirements
+
+- python
+- cookiecutter
+
 ## License
 
 [MIT](LICENSE)
