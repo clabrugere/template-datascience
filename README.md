@@ -7,7 +7,7 @@ A simple template for datascience python projects using cookiecutter.
 Navigate to a directory of your choice and execute the command:
 
 ```
-cookiecutter https://github.com/audreyr/cookiecutter-pypackage
+cookiecutter https://github.com/clabrugere/template-datascience
 ```
 
 This will create the project in the current working directory.
