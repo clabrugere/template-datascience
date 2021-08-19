@@ -2,7 +2,8 @@
 ## This default template includes entries for R, Python and visual studio
 
 # exclude data from source control by default
-data/
+data/*
+!.gitkeep
 
 ##
 ## R Section - See https://github.com/github/gitignore/blob/master/R.gitignore
