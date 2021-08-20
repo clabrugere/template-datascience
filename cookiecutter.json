@@ -2,6 +2,8 @@
     "project_name": "Project name",
 	"description": "A short description of the project.",
     "repo_name": "{{cookiecutter.project_name.lower().replace(' ', '-')}}",
+	"initiate_repo": ["yes", "no"],
+	"create_conda_env_config": ["yes", "no"],
     "author_name": "Your name (or your organization/company/team)",
-    "open_source_license": ["MIT", "BSD-3-Clause", "No license file"]
+    "open_source_license": ["MIT", "BSD-3-Clause", "Unspecified"]
 }

@@ -11,11 +11,14 @@ cookiecutter https://github.com/clabrugere/template-datascience
 ```
 
 Follow the few prompts to fill the basic information about your project:
-- ```project_name``` is the name of your project, it can contain spaces.
+- ```project_name``` is the name of your project, it can contain spaces, numbers, underscores and hyphens only.
 - ```description``` type a short description of the project that will be put in the readme file.
-- ```repo_name``` it is the project name in lowercase with spaces replaced by "-" by default, but you can type another name.
+- ```repo_name``` is the project name in lowercase with spaces replaced by "-" by default, but you can type another name.
+- ```initiate_repo``` to whether or not initiate the git repository.
 - ```author_name``` to be put in the licence file. It is you or the organisation you represent.
 - ```open_source_license``` type of licence. Currently three are supported: MIT, BSD-3-clause and No licence.
+
+Note that the repository name is checked at the end to make sure it contains only numbers, underscores or hyphens. If the check fails, the project will not be created.
 
 ### Project structure
 
@@ -63,7 +66,6 @@ It will create a minimalist conda environment for datascience that you can furth
 
 ## Requirements
 
-- python
 - cookiecutter
 
 ## License
