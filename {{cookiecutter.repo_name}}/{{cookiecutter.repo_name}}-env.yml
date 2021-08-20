@@ -1,0 +1,11 @@
+name: {{cookiecutter.repo_name}}
+channels:
+  - conda-forge
+  - defaults
+  - plotly
+dependencies:
+  - python=3.8
+  - ipykernel
+  - numpy
+  - pandas
+  - plotly
