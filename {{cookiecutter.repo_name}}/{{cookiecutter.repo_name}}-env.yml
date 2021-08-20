@@ -8,4 +8,5 @@ dependencies:
   - ipykernel
   - numpy
   - pandas
+  - scikit-learn 
   - plotly

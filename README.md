@@ -62,6 +62,7 @@ It will create a minimalist conda environment for datascience that you can furth
   - ipykernel
   - numpy
   - pandas
+  - scikit-learn 
   - plotly
 
 ## Requirements
