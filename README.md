@@ -16,7 +16,7 @@ Follow the few prompts to fill the basic information about your project:
 - ```repo_name``` is the project name in lowercase with spaces replaced by "-" by default, but you can type another name.
 - ```initiate_repo``` to whether or not initiate the git repository.
 - ```author_name``` to be put in the licence file. It is you or the organisation you represent.
-- ```open_source_license``` type of licence. Currently three are supported: MIT, BSD-3-clause and No licence.
+- ```open_source_license``` type of licence. Possible choices: MIT, BSD-3-clause and No licence.
 
 Note that the repository name is checked at the end to make sure it contains only numbers, underscores or hyphens. If the check fails, the project will not be created.
 
