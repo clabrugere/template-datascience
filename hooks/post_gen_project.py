@@ -20,7 +20,7 @@ if create_conda_env_config == "no" and os.path.isfile(conda_env_config_file):
 try:
     if initiate_repo == "yes":
         subprocess.run(["git", "init"], check=True)
-        subprocess.run(["git", "add", "*"], check=True)
+        subprocess.run(["git", "add", "."], check=True)
         subprocess.run(["git", "commit", "-m", "initial commit"], check=True)
 
 except subprocess.CalledProcessError as e:

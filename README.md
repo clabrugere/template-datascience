@@ -2,6 +2,7 @@
 # Template datascience
 
 A simple python project template for datascience using cookiecutter. It provides a standard structure that can be adapted depending on the specific needs of the project.
+It is inspired by the drivendata cookiecutter.
 
 ## Usage
 
@@ -44,7 +45,7 @@ LICENCE, README.md and .gitignore files will be automatically created.
 Once you have the basic project's strucure, it is recommend to create a dedicated python environment for your project. If you are using conda to manage environments, create a new environment (where {{repo_name}} is the name of the repository oyu just created):
 
 ```
-conda env create -f {{repo_name}}-env.yml
+conda create -f {{repo_name}}-env.yml
 ```
 activate the new environment:
 ```
@@ -60,7 +61,7 @@ conda deactivate
 ```
 
 It will create a minimalist conda environment for datascience that you can further extend depending on your project's needs, that will be visible from jupyter when you want to create new notebooks. It contains the following packages:
-  - python 3.8
+  - python 3.9
   - ipykernel
   - numpy
   - pandas
